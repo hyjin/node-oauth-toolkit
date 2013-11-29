@@ -1,0 +1,25 @@
+{
+  "name": "oauth-toolkit",
+  "version": "0.0.0",
+  "description": "RFC5849 complaint OAuth toolkit",
+  "keywords": [
+    "oauth",
+    "signature",
+    "toolkit"
+  ],
+  "homepage": "https://github.com/hyjin/node-oauth-toolkit",
+  "bugs": "https://github.com/hyjin/node-oauth-toolkit/issues",
+  "license": "MIT",
+  "author": "Hyungjin Kim <kim@hyjin.com> (http://hyjin.github.io/)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyjin/node-oauth-toolkit.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.x"
+  }
+}
