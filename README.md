@@ -1,11 +1,11 @@
 oauth-toolkit
 ==================
 
-[RFC-5849](http://tools.ietf.org/html/rfc5849) complaint oauth toolkit.
+[RFC-5849](http://tools.ietf.org/html/rfc5849) compliant oauth toolkit.
 
 Yeah, yet another OAuth toolkit for node.js.
 
-Most of npm modules are not 100% complaint to RFC-5849. These modules
+Most of npm modules are not 100% compliant to RFC-5849. These modules
 are failing on example of the spec. Especially when there are multiple
 parameters with same key like a=1&a=2, these modules overwrites former
 parameters with later parameters, and it results to wrong base string.
